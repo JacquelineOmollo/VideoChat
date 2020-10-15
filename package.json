@@ -1,0 +1,29 @@
+{
+  "name": "videochat",
+  "version": "1.0.0",
+  "description": "This is a zoom clone that's secure.  Using Node, express, Socket.io and WebRTC.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacquelineOmollo/VideoChat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JacquelineOmollo/VideoChat/issues"
+  },
+  "homepage": "https://github.com/JacquelineOmollo/VideoChat#readme",
+  "dependencies": {
+    "dec": "0.0.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.5",
+    "socket.io": "^2.3.0",
+    "uuid": "^8.3.1"
+  }
+}
